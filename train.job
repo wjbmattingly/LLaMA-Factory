@@ -46,7 +46,7 @@ llamafactory-cli train \
     --per_device_eval_batch_size 1 \
     --overwrite_output_dir true \
     --overwrite_cache true \
-    --deepspeed examples/deepspeed/ds_z3_config.json
+    # --deepspeed examples/deepspeed/ds_z3_config.json
 
 # /scratch/genomics/mattinglyw/saves/Qwen2VL-2B-Chat/lora/train_2024-09-04-13-53-27
 
